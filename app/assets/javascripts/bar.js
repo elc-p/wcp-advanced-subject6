@@ -17,7 +17,7 @@ function time() {
   }
 }
 
-var  interval = setInterval(time, 500);
+var  interval = setInterval(time, 100);
 
 
 

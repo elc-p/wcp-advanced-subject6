@@ -18,8 +18,8 @@ class User < ApplicationRecord
     followings.include?(user)
   end
   
-  def follow(user_id)
-    relationships.create(followed_id: user_id)
+  def follow(user_id_aa)
+    relationships.create(followed_id: user_id_aa)
   end
   
   def unfollow(user_id)
